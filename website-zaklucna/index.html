@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.1.0/paho-mqtt.min.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+
+    <div class="naslov">
+        <p>Spletno krmiljenje IoT</p>
+    </div>
+
+    <div id="data">
+        <p>Temperatura prostora: <span id="temp"></span></p>
+        <p>Število naprav: <span id="cli"></span></p>
+        <p>Server status: <span id="serv"></span></p>
+    </div>
+
+    <div id="LED1">
+        <h2>LED1</h2>
+        <button class="button" id="button1" onClick="turnOnLED()">ON</button>
+        <button class="button" id="button2" onClick="turnOffLED()">OFF</button>
+    </div>
+
+    <div id="LED2">
+        <h2>LED2</h2>
+        <button class="button" id="button3" onClick="turnOnLED()">ON</button>
+        <button class="button" id="button4" onClick="turnOffLED()">OFF</button>
+    </div>
+
+    <div id="FAN1">
+        <h2>FAN1</h2>
+        <button class="button" id="button5" onClick="turnOnLED()">ON</button>
+        <button class="button" id="button6" onClick="turnOffLED()">OFF</button>
+    </div>
+
+    <div id="FAN2">
+        <h2>FAN2</h2>
+        <button class="button" id="button7" onClick="serverON()">ON</button>
+        <button class="button" id="button8" onClick="serverOFF()">OFF</button>
+    </div>
+
+</body>
+
+
+</html>

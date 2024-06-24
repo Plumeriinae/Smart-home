@@ -1,0 +1,119 @@
+html {
+    height: 100%;
+    background: linear-gradient(45deg, #acd0ff, #728cff);
+}
+
+body {
+    margin: 0pt;
+    background: linear-gradient(45deg, #acd0ff, #728cff);
+}
+
+.naslov {
+    background-color: black;
+    margin-top: 0pt;
+}
+
+.naslov p {
+    margin-top: 0pt;
+    margin-left: 30pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+}
+
+#data {
+    margin-top: 12pt;
+    margin-bottom: 12pt;
+    margin-left: 100pt;
+    padding-left: 12pt;
+    width: 270pt;
+    display: inline-block;
+    border: 2pt solid black;
+    border-radius: 5pt;
+}
+
+#data p{
+    font-family: sans-serif;
+    font: bold;
+    font-size: 20pt;
+}
+
+#LED1 {
+    width: 282pt;
+    height: 70pt;
+    margin-left: 100pt;
+    margin-top: 50pt;
+    border: solid 2pt;
+    border-radius: 5pt;
+}
+
+#LED1 h2 {
+    margin-left: 10pt;
+    display: inline-block;
+}
+
+#LED2{
+    width: 282pt;
+    height: 70pt;
+    margin-left: 100pt;
+    margin-top: 50pt;
+    border: solid 2pt;
+    border-radius: 5pt;
+}
+
+#LED2 h2 {
+    margin-left: 10pt;
+    display: inline-block;
+}
+
+#FAN1{
+    width: 282pt;
+    height: 70pt;
+    margin-left: 100pt;
+    margin-top: 50pt;
+    border: solid 2pt;
+    border-radius: 5pt;
+}
+
+#FAN1 h2 {
+    margin-left: 10pt;
+    display: inline-block;
+}
+
+#FAN2{
+    width: 282pt;
+    height: 70pt;
+    margin-left: 100pt;
+    margin-top: 50pt;
+    border: solid 2pt;
+    border-radius: 5pt;
+}
+
+#FAN2 h2 {
+    margin-left: 10pt;
+    display: inline-block;
+}
+
+.button {
+    border: 2pt solid black;
+    border-radius: 10pt;
+    color: white;
+    padding: 10pt 25pt;
+    margin-left: 15pt;
+    margin-top: 15pt;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15pt;
+    font-family: Comic;
+    cursor: pointer;
+    background-color: rgb(113, 113, 255);
+}
+
+.button:active {
+    background-color: rgb(91, 91, 255);
+    border: 2pt solid rgb(0, 0, 112);
+    padding: 10pt 25pt;
+}
